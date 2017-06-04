@@ -1,6 +1,8 @@
+# Maintainer: Tim Savannah <kata198@gmail.com>
+
 
 pkgname=pacman-utils
-pkgver=0.5.0
+pkgver=0.5.1
 pkgrel=1
 pkgdesc="Some utils and helper scripts for archlinux packages "
 # arch package url is https://github.com/kata198/pacman-utils-pkg
@@ -10,7 +12,7 @@ license=(apache)
 depends=(python python-virtualenv python-setuptools)
 optdepends=('pacman-utils-data:  Data for whatprovides_upstream')
 source=("https://github.com/kata198/pacman-utils/archive/${pkgver}.tar.gz")
-md5sums=('d234afce69bf69e50aa29904895245e0')
+md5sums=('020375e8130ae5a73c721e9194ca9142')
 install=install.sh
 
 build() {
